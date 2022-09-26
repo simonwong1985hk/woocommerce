@@ -19,3 +19,16 @@ function storefront_parent_theme_enqueue_styles() {
 		[ 'storefront-style' ]
 	);
 }
+
+
+/**
+ * Remove sidebar from single product page
+ */
+add_action( 'get_header', 'remove_storefront_sidebar' );
+
+function remove_storefront_sidebar()
+{
+	if (is_product()) {
+		remove_action( 'storefront_sidebar', 'storefront_get_sidebar', 10 );
+	}
+}
