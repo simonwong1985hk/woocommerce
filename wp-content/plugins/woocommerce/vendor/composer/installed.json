@@ -520,27 +520,27 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.26.0",
-            "version_normalized": "1.26.0.0",
+            "version": "v1.27.0",
+            "version_normalized": "1.27.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "cfa0ae98841b9e461207c13ab093d76b0fa7bace"
+                "reference": "7a6ff3f1959bb01aefccb463a0f2cd3d3d2fd936"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/cfa0ae98841b9e461207c13ab093d76b0fa7bace",
-                "reference": "cfa0ae98841b9e461207c13ab093d76b0fa7bace",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/7a6ff3f1959bb01aefccb463a0f2cd3d3d2fd936",
+                "reference": "7a6ff3f1959bb01aefccb463a0f2cd3d3d2fd936",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1"
             },
-            "time": "2022-05-10T07:21:04+00:00",
+            "time": "2022-11-03T14:55:06+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.26-dev"
+                    "dev-main": "1.27-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -586,7 +586,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.26.0"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -606,17 +606,17 @@
         },
         {
             "name": "woocommerce/action-scheduler",
-            "version": "3.4.2",
-            "version_normalized": "3.4.2.0",
+            "version": "3.5.4",
+            "version_normalized": "3.5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/woocommerce/action-scheduler.git",
-                "reference": "7d8e830b6387410ccf11708194d3836f01cb2942"
+                "reference": "9533e71b0eba4a519721dde84a34dfb161f11eb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woocommerce/action-scheduler/zipball/7d8e830b6387410ccf11708194d3836f01cb2942",
-                "reference": "7d8e830b6387410ccf11708194d3836f01cb2942",
+                "url": "https://api.github.com/repos/woocommerce/action-scheduler/zipball/9533e71b0eba4a519721dde84a34dfb161f11eb8",
+                "reference": "9533e71b0eba4a519721dde84a34dfb161f11eb8",
                 "shasum": ""
             },
             "require-dev": {
@@ -625,7 +625,7 @@
                 "wp-cli/wp-cli": "~2.5.0",
                 "yoast/phpunit-polyfills": "^1.0"
             },
-            "time": "2022-06-08T15:46:07+00:00",
+            "time": "2023-01-17T20:20:43+00:00",
             "type": "wordpress-plugin",
             "extra": {
                 "scripts-description": {
@@ -643,37 +643,39 @@
             "homepage": "https://actionscheduler.org/",
             "support": {
                 "issues": "https://github.com/woocommerce/action-scheduler/issues",
-                "source": "https://github.com/woocommerce/action-scheduler/tree/3.4.2"
+                "source": "https://github.com/woocommerce/action-scheduler/tree/3.5.4"
             },
             "install-path": "../../packages/action-scheduler"
         },
         {
             "name": "woocommerce/woocommerce-blocks",
-            "version": "v8.3.3",
-            "version_normalized": "8.3.3.0",
+            "version": "v9.4.3",
+            "version_normalized": "9.4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/woocommerce/woocommerce-blocks.git",
-                "reference": "c2fdc66753f19a8d1de862f602ada5dc9e53d878"
+                "reference": "26feae05d65ff38f0277bdb0c19f9d293d3cbfc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woocommerce/woocommerce-blocks/zipball/c2fdc66753f19a8d1de862f602ada5dc9e53d878",
-                "reference": "c2fdc66753f19a8d1de862f602ada5dc9e53d878",
+                "url": "https://api.github.com/repos/woocommerce/woocommerce-blocks/zipball/26feae05d65ff38f0277bdb0c19f9d293d3cbfc4",
+                "reference": "26feae05d65ff38f0277bdb0c19f9d293d3cbfc4",
                 "shasum": ""
             },
             "require": {
                 "automattic/jetpack-autoloader": "^2.9.1",
-                "composer/installers": "^1.7.0"
+                "composer/installers": "^1.7.0",
+                "ext-hash": "*",
+                "ext-json": "*"
             },
             "require-dev": {
-                "johnbillion/wp-hooks-generator": "^0.9.0",
                 "mockery/mockery": "^1.4",
                 "woocommerce/woocommerce-sniffs": "0.1.0",
+                "wp-hooks/generator": "^0.9.0",
                 "wp-phpunit/wp-phpunit": "^6.0",
                 "yoast/phpunit-polyfills": "^1.0"
             },
-            "time": "2022-09-23T13:31:13+00:00",
+            "time": "2023-02-02T10:50:45+00:00",
             "type": "wordpress-plugin",
             "extra": {
                 "scripts-description": {
@@ -705,7 +707,7 @@
             ],
             "support": {
                 "issues": "https://github.com/woocommerce/woocommerce-blocks/issues",
-                "source": "https://github.com/woocommerce/woocommerce-blocks/tree/v8.3.3"
+                "source": "https://github.com/woocommerce/woocommerce-blocks/tree/v9.4.3"
             },
             "install-path": "../../packages/woocommerce-blocks"
         }
